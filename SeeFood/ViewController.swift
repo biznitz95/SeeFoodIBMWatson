@@ -5,6 +5,7 @@
 //  Created by Bizet Rodriguez on 9/25/18.
 //  Copyright © 2018 Bizet Rodriguez. All rights reserved.
 //
+// Completed 09/25/18
 
 import UIKit
 import VisualRecognitionV3
