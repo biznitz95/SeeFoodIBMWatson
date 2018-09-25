@@ -12,7 +12,29 @@
 		9E4C0D44215AE36C0064CD0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4C0D42215AE36C0064CD0A /* Main.storyboard */; };
 		9E4C0D46215AE36D0064CD0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4C0D45215AE36D0064CD0A /* Assets.xcassets */; };
 		9E4C0D49215AE36D0064CD0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4C0D47215AE36D0064CD0A /* LaunchScreen.storyboard */; };
+		9E4C0D53215AE3850064CD0A /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4C0D50215AE3840064CD0A /* RestKit.framework */; };
+		9E4C0D54215AE3850064CD0A /* RestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4C0D50215AE3840064CD0A /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9E4C0D55215AE3850064CD0A /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4C0D51215AE3850064CD0A /* VisualRecognitionV3.framework */; };
+		9E4C0D56215AE3850064CD0A /* VisualRecognitionV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4C0D51215AE3850064CD0A /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9E4C0D57215AE3850064CD0A /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4C0D52215AE3850064CD0A /* SVProgressHUD.framework */; };
+		9E4C0D58215AE3850064CD0A /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4C0D52215AE3850064CD0A /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E4C0D59215AE3850064CD0A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9E4C0D58215AE3850064CD0A /* SVProgressHUD.framework in Embed Frameworks */,
+				9E4C0D54215AE3850064CD0A /* RestKit.framework in Embed Frameworks */,
+				9E4C0D56215AE3850064CD0A /* VisualRecognitionV3.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9E4C0D3B215AE36C0064CD0A /* SeeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +44,9 @@
 		9E4C0D45215AE36D0064CD0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E4C0D48215AE36D0064CD0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E4C0D4A215AE36D0064CD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E4C0D50215AE3840064CD0A /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RestKit.framework; sourceTree = "<group>"; };
+		9E4C0D51215AE3850064CD0A /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VisualRecognitionV3.framework; sourceTree = "<group>"; };
+		9E4C0D52215AE3850064CD0A /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4C0D57215AE3850064CD0A /* SVProgressHUD.framework in Frameworks */,
+				9E4C0D53215AE3850064CD0A /* RestKit.framework in Frameworks */,
+				9E4C0D55215AE3850064CD0A /* VisualRecognitionV3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +66,9 @@
 		9E4C0D32215AE36C0064CD0A = {
 			isa = PBXGroup;
 			children = (
+				9E4C0D50215AE3840064CD0A /* RestKit.framework */,
+				9E4C0D52215AE3850064CD0A /* SVProgressHUD.framework */,
+				9E4C0D51215AE3850064CD0A /* VisualRecognitionV3.framework */,
 				9E4C0D3D215AE36C0064CD0A /* SeeFood */,
 				9E4C0D3C215AE36C0064CD0A /* Products */,
 			);
@@ -74,6 +105,7 @@
 				9E4C0D37215AE36C0064CD0A /* Sources */,
 				9E4C0D38215AE36C0064CD0A /* Frameworks */,
 				9E4C0D39215AE36C0064CD0A /* Resources */,
+				9E4C0D59215AE3850064CD0A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -284,6 +316,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48ZHJ48H3S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SeeFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +338,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48ZHJ48H3S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SeeFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
